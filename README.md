@@ -1,7 +1,7 @@
 # Student Management System — CRUD Web Application
 
 **Activity:** VSB Skill Vault — Activity 3 (Mini Web Application)
-**Student:** Akshara R.
+**Student:** Akshara KR.
 
 ## 1. Overview
 A full-stack CRUD web application to manage student records (add, view, edit, delete, search).
