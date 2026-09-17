@@ -39,7 +39,22 @@ Browser (HTML/CSS/JS) → Fetch API → Flask REST API → SQLite Database
 | department | TEXT | NOT NULL |
 | year | INTEGER | NOT NULL |
 | cgpa | REAL | |
+### ER Diagram
 
+```mermaid
+erDiagram
+    STUDENTS {
+        int id PK
+        string name
+        string roll_no UK
+        string email
+        string department
+        int year
+        float cgpa
+    }
+```
+
+## 7. REST API Endpoints
 ## 7. REST API Endpoints
 | Operation | Method | Endpoint | Result |
 |---|---|---|---|
