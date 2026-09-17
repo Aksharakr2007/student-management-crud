@@ -40,17 +40,6 @@ Browser (HTML/CSS/JS) → Fetch API → Flask REST API → SQLite Database
 | year | INTEGER | NOT NULL |
 | cgpa | REAL | |
 
-```mermaid
-erDiagram
-    STUDENTS {
-        int id PK
-        string name
-        string roll_no UK
-        string email
-        string department
-        int year
-        float cgpa
-    }
 ## 7. REST API Endpoints
 | Operation | Method | Endpoint | Result |
 |---|---|---|---|
